@@ -1,3 +1,6 @@
+# Ensure correct scheme and host for DRF reverse() in Codespaces
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+USE_X_FORWARDED_HOST = True
 """
 Django settings for octofit_tracker project.
 
